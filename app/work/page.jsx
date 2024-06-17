@@ -22,7 +22,6 @@ import WorkSliderBtns from "@/components/ui/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "Web Development",
     title: "Online Gym Management System (MERN)",
     description:
       "The gym management system for CJ gym offers a comprehensive solution using MERN stack. It manages members, schedules, staff, subscriptions, finances, inventory, and more.",
@@ -37,8 +36,7 @@ const projects = [
     github: "https://github.com/Yasindu07/gym-management-system.git",
   },
   {
-    num: "02",
-    category: "Web Development",
+    num: "02",   
     title: "Online Event Management System (JAVA)",
     description:
       "Online Event Management System created with JAVA, HTML, CSS, JavaScript, and MySQL. This web application utilizes the MVC architecture and JSP-Servlets for the backend.",
@@ -54,7 +52,6 @@ const projects = [
   },
   {
     num: "03",
-    category: "App Development",
     title: "Packaging App (Flutter)",
     description:
       "Developed and contributed to the packaging app using Flutter and Developed to get MAC address of item using ble, get serial number by nfc and scan and store item details and package id by QR scanner",
@@ -64,7 +61,6 @@ const projects = [
   },
   {
     num: "04",
-    category: "Web Development",
     title: "Online Customer Support System",
     description:
       "This project is a website for an online Customer Support System For Businesses named as 'BizzSup' created with PHP, HTML, CSS, Js, and MySQL. XAMPP used to configure PHP and MySQL",
@@ -109,7 +105,7 @@ const Work = () => {
               </div>
               {/* Project Category */}
               <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
-                {project.category}
+                {project.title}
               </h2>
               {/* Project Description */}
               <p className="text-white/60">{project.description}</p>
