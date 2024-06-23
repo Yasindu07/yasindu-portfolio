@@ -1,7 +1,6 @@
 import Photo from "@/components/Photo";
 import Socials from "@/components/Socials";
 import Stats from "@/components/Stats";
-import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
 
@@ -24,13 +23,13 @@ const Home = () => {
             </p>
             {/* button and social */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Link
-                  href="/assets/resume/YasinduCV.pdf"
+              <a
+                  href="https://firebasestorage.googleapis.com/v0/b/yasindu-portfolio.appspot.com/o/YasinduCV.pdf?alt=media&token=cad70550-d6eb-499c-ae05-b73af5811967"
                   target="_blank"
-                  alt=""
-                  rel="noopener noreferrer"
+                  download="YasinduCV.pdf"
                 >
                 <Button
+                  
                   variant="outline"
                   size="lg"
                   className="uppercase flex
@@ -39,7 +38,7 @@ const Home = () => {
                 <span>Download CV</span>
                 <FiDownload className="text-xl" />
                 </Button>
-              </Link>
+              </a>
               <div className="mb-8 xl:mb-0">
                 <Socials
                   containerStyles="flex gap-6"
