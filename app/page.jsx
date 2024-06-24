@@ -24,7 +24,7 @@ const Home = () => {
             {/* button and social */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <a
-                  href="https://firebasestorage.googleapis.com/v0/b/yasindu-portfolio.appspot.com/o/YasinduCV.pdf?alt=media&token=cad70550-d6eb-499c-ae05-b73af5811967"
+                  href="https://firebasestorage.googleapis.com/v0/b/yasindu-portfolio.appspot.com/o/YasinduCV.pdf?alt=media&token=fd758b33-3621-472c-ba42-94c9b2ade583"
                   target="_blank"
                   download="YasinduCV.pdf"
                 >
